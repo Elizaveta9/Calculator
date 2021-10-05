@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="firstNum_text">Первое слагаемое:</string>
+    <string name="secondNum_text">Второе слагаемое:</string>
+    <string name="add_text">Сложить</string>
+</resources>
