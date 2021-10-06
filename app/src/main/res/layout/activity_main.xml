@@ -13,16 +13,16 @@
 
         <TextView
             android:id="@+id/firstNumLabel"
-            android:layout_width="0dp"
-            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/firstNum_text"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/fistNum"
-            android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_width="@dimen/dim_0dp"
+            android:layout_height="@dimen/dim_40dp"
             android:inputType="textImeMultiLine"
             app:layout_constraintLeft_toRightOf="@+id/firstNumLabel"
             app:layout_constraintRight_toRightOf="parent"
@@ -30,16 +30,16 @@
 
         <TextView
             android:id="@+id/secondNumLabel"
-            android:layout_width="0dp"
-            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/secondNum_text"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/fistNum" />
 
         <EditText
             android:id="@+id/secondNum"
-            android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_width="@dimen/dim_0dp"
+            android:layout_height="@dimen/dim_40dp"
             android:inputType="textImeMultiLine"
             app:layout_constraintLeft_toRightOf="@+id/secondNumLabel"
             app:layout_constraintRight_toRightOf="parent"
