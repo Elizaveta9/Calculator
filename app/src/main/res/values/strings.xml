@@ -3,4 +3,5 @@
     <string name="firstNum_text">Первое слагаемое:</string>
     <string name="secondNum_text">Второе слагаемое:</string>
     <string name="add_text">Сложить</string>
+    <string name="please_put_num_text">Ввести слагаемое</string>
 </resources>
