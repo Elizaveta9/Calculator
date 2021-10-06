@@ -12,9 +12,9 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+
       try {
         TextView textView = (TextView) findViewById(R.id.resoultView);
-
 
         Integer firstNum = getIntent().getExtras().getInt("firstNum");
         Integer secondNum = getIntent().getExtras().getInt("secondNum");

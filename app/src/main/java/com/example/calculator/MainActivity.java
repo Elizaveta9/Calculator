@@ -17,12 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    @Override
-    protected void onSaveInstanceState(@NonNull Bundle outState) {
-        super.onSaveInstanceState(outState);
-
-    }
-
     public void onClick(View v) {
 
         EditText firstNumEditText = findViewById(R.id.fistNum);
@@ -30,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             String stringNum1 = firstNumEditText.getText().toString();
-
             String stringNum2 = secondNumEditText.getText().toString();
 
             if (isInteger(stringNum1) && isInteger(stringNum2)) {
@@ -42,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("firstNum", firstNum);
                 intent.putExtra("secondNum", secondNum);
                 startActivity(intent);
+
             } else {
                 Toast.makeText(this, "Некорректные данные", Toast.LENGTH_LONG).show();
             }
